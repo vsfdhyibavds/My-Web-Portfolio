@@ -6,21 +6,20 @@ body{
 
 header{
     background-color: blue;
-    color: #fff;
+    color: black;
     padding: 20px;
 }
 
-header h1{
+h1{
     margin: 0;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 nav{
     height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #f8f8f8;
+    background-color: aqua;
 }
 
 nav ul{
@@ -29,19 +28,18 @@ nav ul{
     padding: 0;
     display: flex;
 }
-
 nav li{
-    margin:0 20px;;
+    margin:0 20px;
 }
 
 nav a{
     text-decoration: none;
-    color: #333;
+    color: blue;
 }
 
 main{
     max-width: 800px;
-    margin: 0 auto;
+    margin:0px auto;
     padding: 25px;
 }
 
@@ -51,12 +49,12 @@ section{
 
 section h2{
     margin: 0 0 20px 0;
-    font-size: 18px;
 }
 
 footer{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: black;
     text-align: center;
+    padding: 20px;
+    color: white;
 }
+
