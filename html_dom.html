@@ -4,8 +4,9 @@
     <title><HTML> DOM & EVENTS</HTML></title>
   </head>
   <body>
-    <P id="p_one">Hello, welcome to my web page.</P>
+    <P onmouseover="changeSize()" onmouseout="ChangeColor()" id="p_one">Hello, welcome to my web page.</P>
     <button id="btn_change">Change</button>
+    <button onclick="ChangeColor()">ChangeColor</button>
 
     <script>
       const button = document. querySelector('#btn_change');
@@ -34,13 +35,17 @@
       document.addEventListener('mouseup', () => {
         console.log("the mouse has been released");
       });
+
+      function ChangeColor(){
+        var p = document.getElementById('p_one');
+        p.style.color = 'orange';
+      }
       
+      function changeSize(){
+        let p = document.getElementById('p_one');
+        p.style.fontSize = '20px';
+        p.style.color = 'blue';
+      }
     </script>
   </body>
 </html>
-
-queryselector();
-get elementById();//id attribute
-get elementByName();//name attribute
-get elementByTagName();//tag name
-get elementByClassName();//class name 
