@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
@@ -16,7 +17,7 @@ header h1{
 }
 
 nav{
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
